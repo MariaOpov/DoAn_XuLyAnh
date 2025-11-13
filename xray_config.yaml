@@ -1,0 +1,8 @@
+# Path là đường dần
+path:
+
+train: images/train
+val: images/train
+
+names:
+  0: prohibited_item

@@ -11,3 +11,10 @@ import os
 # Thực hiện phép toán để chuyển đổi tọa độ pixel sang định dạng YOLO 
 # Lưu kết quả đã chuyển đổi vào một file .txt mới
 # Nói chung, Nó tạo ra dữ liệu sạch (các file .txt) để chuẩn bị cho mô hình AI (YOLO).
+
+# Sau khi hoàn thành convert_to_yolo.py, ta sẽ tạo xray_config.yaml
+# File này là file cấu hình cho YOLO
+# Dữ liệu ở đâu: Nó trỏ đến đường dẫn của thư mục XRay_Dataset.
+# Ảnh huấn luyện ở đâu: Nó chỉ đến thư mục images/train.
+# Nhãn huấn luyện ở đâu: Nó chỉ đến thư mục labels/train.
+# Nó định nghĩa tên của các lớp (class). Ví dụ: 0: prohibited_item.
