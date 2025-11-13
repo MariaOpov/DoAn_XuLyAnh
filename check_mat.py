@@ -10,3 +10,8 @@ import numpy as np
 # Sau cùng là nhìn vào dữ liệu thô, từ đó ta sẽ suy luận chính xác năm cột dữ liệu: img_id, xmin, xmax, ymin, ymax
 # Nói ngắn gọn, file này giúp chúng ta hiểu được dữ liệu gốc trước khi xử lý nó.
 
+# Yêu cầu thực hiện:
+# Viết code để kiểm tra BoundingBox.mat
+# Đọc file .mat bằng spicy
+# In các keys và kích thước của dữ liệu
+# Phải tìm ra và xác nhận chính xác ý nghĩa của 5 cột dữ liệu (img_id, xmin, xmax, ymin, ymax)

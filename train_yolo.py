@@ -11,3 +11,8 @@ import os
 # Gọi hàm model.train() và chỉ định các thông số quan trọng (như epochs=50, imgsz=640). Đây là lúc máy tính bắt đầu xem ảnh xray của bạn lặp đi lặp lại để học cách nhận diện vật cấm.
 # Sau khi huấn luyện xong, file này sẽ tự động lưu kết quả. Sản phẩm cuối cùng và quan trọng nhất của nó là file best.pt trong thư mục runs/detect/train/.
 
+# Yêu cầu thực hiện: 
+# Viết code để tải mô hình YOLOv8 gốc 
+# Trỏ script của bạn đến file xray_config.yaml.
+# Thiết lập thông số (epochs, imgsz, batch)
+# Chạy huấn luyện: Gọi hàm model.train() và theo dõi quá trình.
