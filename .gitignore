@@ -1,0 +1,12 @@
+myenv1/
+
+Baggages/
+yolov8n.pt
+best.pt
+runs/
+
+__pycache__/
+__MACOSX/
+*.log
+.vscode/
+.env
