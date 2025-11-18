@@ -1,8 +1,6 @@
-# Path là đường dần
-path:
-
-train: images/train
-val: images/train
-
 names:
   0: prohibited_item
+nc: 1
+path: d:\XLA_1\DoAn_XuLyAnh\XRay_Dataset
+train: images/train
+val: images/train
