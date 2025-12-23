@@ -29,10 +29,8 @@ def train_model():
         # Lấy đường dẫn thư mục chứa code (ví dụ: D:\XLA_1\DoAn_XuLyAnh)
         script_dir = os.path.dirname(os.path.abspath(__file__))
     except NameError:
-        # Fallback khi chạy bằng nút 'Run' (▶)
         script_dir = os.path.join(os.getcwd(), "DoAn_XuLyAnh")
 
-    # Đường dẫn đến file config (do Người 2 tạo)
     config_path = os.path.join(script_dir, "xray_config.yaml")
     
     if not os.path.exists(config_path):
@@ -58,6 +56,7 @@ def train_model():
       # Xử lý 4 ảnh 1 lần (vì dataset nhỏ)
       # Lưu kết quả vào thư mục code (DoAn_XuLyAnh)
       # Đặt tên thư mục con là 'runs/train'
+      # Moi epoch dai dien cho 1 lan huan luyen, AI chi xem anh mot lan duy nhat
         results = model.train(
             data=config_path,   
             epochs=50,          

@@ -60,8 +60,9 @@ def predict_image():
     if not os.path.exists(model_path):
         print(f"LỖI: Không tìm thấy file 'best.pt' tại: {model_path}")
         return
-
-    image_to_test = os.path.join(script_dir, "Baggages", "B0001", "B0001_0009.png")
+    # Sau khi huan luyen AI, ta co the test anh bang cach cho anh ma AI da duoc huan luyen tu truoc
+    # Nhu duong dan duoi
+    image_to_test = os.path.join(script_dir, "Baggages", "B0001", "B0001_0001.png")
     
     if not os.path.exists(image_to_test):
         print(f"LỖI: Không tìm thấy ảnh kiểm tra tại: {image_to_test}")
