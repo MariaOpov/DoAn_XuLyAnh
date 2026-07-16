@@ -20,3 +20,30 @@ The project includes image preprocessing with OpenCV, annotation conversion to Y
 - Ultralytics
 - NumPy
 - Google Colab
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/MariaOpov/DoAn_XuLyAnh.git
+cd DoAn_XuLyAnh
+```
+
+Create and activate a virtual environment:
+
+```bash
+python -m venv .venv
+```
+
+On Windows:
+
+```bash
+.venv\Scripts\activate
+```
+
+Install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
